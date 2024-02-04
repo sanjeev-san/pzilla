@@ -1,30 +1,22 @@
-# pzilla
+# Pzilla
 
-A new Flutter project.
+A Flutter-based ecommerce application integrated with Wordpress-based website.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- [Material UI for Flutter](https://docs.flutter.dev/ui/design/material)
+- [Plugins/packages for Flutter and Dart](https://pub.dev/)
+- [Woocommerce REST API documentation](https://woocommerce.github.io/woocommerce-rest-api-docs/)
+- [Wordpress API documentation](https://developer.wordpress.org/rest-api/reference/)
 
-A few resources to get you started if this is your first Flutter project:
+# Take note of 3 important files
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-# networking functionalities to check
-
-- login
-- register
-- checkout
-- categories initial loading + nextpage
-- shop initial loading + nextpage
-- searching
-- orders fetching
-- logout
+```
+items.dart
+logindetails.dart
+order.dart
+```
+These files form the backbone of the application. There are various classes declared within. You can change them as per your need.
 
 # Setup
 - Create a ```credentials.dart``` file inside ``lib`` folder. This contains API keys to interact with server.
@@ -43,3 +35,14 @@ class Credentials {
 // Add other credentials as needed
 }
 ```
+
+# Networking functionalities to check
+
+- Login
+- Register
+- Checkout
+- Categories initial loading + loadMore
+- Shop initial loading + loadMore
+- Searching
+- Orders fetching
+- Logout
